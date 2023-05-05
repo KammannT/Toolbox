@@ -7,11 +7,11 @@ output:
     fig_width: 5
 ---
 
-**Donor-to-Donor expression variation (DEV)** metric adopted from: Strunz et al., Chronic hepatitis C virus infection irreversibly impacts human natural killer cell repertoire diversity, Nat Commun. 2018 Jun 11;9(1):2275. doi: 10.1038/s41467-018-04685-9.<br>
-DEV gives variation of protein expression between replicates (= study subjects or donors), e.g. answering the question:<br>
-*"How much does the expression of a molecule differ between multiple samples?"*<br>
+Donor-to-Donor expression variation (DEV) metric adopted from: Strunz et al., Chronic hepatitis C virus infection irreversibly impacts human natural killer cell repertoire diversity, Nat Commun. 2018 Jun 11;9(1):2275. doi: 10.1038/s41467-018-04685-9.
+DEV gives variation of protein expression between replicates (= study subjects or donors), e.g. answering the question:
+"How much does the expression of a molecule differ between multiple samples?"
 The average DEV for a set of parameters (= proteins) can be compared between different variables, e.g. stimulations, tissues, timepoints and answers the question:
-*"Is the variability of proteins similar between different levels of the variable (e.g. treatment groups)?*
+"Is the variability of proteins similar between different levels of the variable (e.g. treatment groups)?
 
 
 ```{r Setup}
